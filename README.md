@@ -1,7 +1,7 @@
 # my-social-network
 Social network made with &lt;3
 
-For the archtecture:
+For the architecture:
  - For Relations (1:1) Redis
  - For Relations (n:n) Neo4j
  - Documents using MongoDB
