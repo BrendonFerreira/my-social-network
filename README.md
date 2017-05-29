@@ -1,8 +1,8 @@
 # my-social-network
 Social network made with &lt;3
-Relations (1:1) will be used Redis
-Relations (n:n) will be used Neo4j
-Documents will be stored using MongoDB
+ - Relations (1:1) will be used Redis
+ - Relations (n:n) will be used Neo4j
+ - Documents will be stored using MongoDB
 
 
 # Models
