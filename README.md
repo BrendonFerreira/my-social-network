@@ -30,10 +30,10 @@ For the architecture:
   - Last Name
 	
 ## User Birthday
-	- User Birthday id
-	- Day
-	- Month
-	- Year
+  - User Birthday id
+  - Day
+  - Month
+  - Year
 
 ## Chat Group
   - Chat Group id
@@ -48,13 +48,13 @@ For the architecture:
   
 ## Photo 
   - Photo id
-	- Photo LQ url 
-	- Photo HQ url
+  - Photo LQ url 
+  - Photo HQ url
 
 ## Video 
   - Video id
-	- video LQ url
-	- video HQ url
+  - video LQ url
+  - video HQ url
 
 ## Tag
   - Tag id
