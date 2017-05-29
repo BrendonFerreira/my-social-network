@@ -6,6 +6,9 @@ For the architecture:
  - For Relations (n:n) Neo4j
  - Documents using MongoDB
  - Real time with WebRTC when available, otherwhise WebSockets
+ - Public and static content with nginx
+ - Views with pug 
+ - server requests with koajs
  
 # Models
 
@@ -25,7 +28,12 @@ For the architecture:
   - First Name
   - Middle Name
   - Last Name
-  - Birthday
+	
+## User Birthday
+	- User Birthday id
+	- Day
+	- Month
+	- Year
 
 ## Chat Group
   - Chat Group id
@@ -40,9 +48,13 @@ For the architecture:
   
 ## Photo 
   - Photo id
+	- Photo LQ url 
+	- Photo HQ url
 
 ## Video 
   - Video id
+	- video LQ url
+	- video HQ url
 
 ## Tag
   - Tag id
