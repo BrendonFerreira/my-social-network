@@ -5,15 +5,24 @@ Social network made with &lt;3
 
 ## User
   - User id
+  - Username
+  - Profile Photo id
+  - Interested in 
+
+## User status
+  - User status id
+  - Status
+  - Relationship status
+  
+## User info 
+  - User info id
   - First Name
   - Middle Name
   - Last Name
-  - Username
-  - Age
-  - Photo id
-  - Status
-  - Relationship status
-  - Interested in 
+  - Birthday
+
+## Chat Group
+  - Chat Group id
 
 ## Message 
   - Message id
@@ -37,4 +46,3 @@ Social network made with &lt;3
   - Like id
   - User id // 'Cause only one user can "own" the like
   - Post id
-  
