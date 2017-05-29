@@ -1,5 +1,5 @@
 # my-social-network
-Social network made with &lt;3
+Social network made with &lt;3 and microservices
 
 For the architecture:
  - For Relations (1:1) Redis
@@ -10,17 +10,16 @@ For the architecture:
  - Views with pug 
  - server requests with koajs
  
-# Models
+# Collections
 
 ## User
   - User id
   - Username
-  - Profile Photo id
   - Interested in 
 
 ## User status
   - User status id
-  - Status
+  - Status description
   - Relationship status
   
 ## User info 
@@ -35,12 +34,37 @@ For the architecture:
   - Month
   - Year
 
+## Group
+  - Group id
+  - Name
+  - Description
+  - Created at
+
+## Group main photo
+  - Group main photo id
+  - Group main photo LQ url 
+  - Group main photo HQ url
+
+## Group cover photo
+  - Group cover photo id
+  - Group cover photo LQ url 
+  - Group cover photo HQ url
+
 ## Chat Group
   - Chat Group id
+  - Chat theme
+  - Chat group name
 
 ## Message 
-  - Message id
-  - Message content
+  - id
+  - content
+  - type
+
+## Message status
+  - Message status id
+  - Sent at
+  - Received at
+  - Readed at	
 
 ## Post
   - Post id
@@ -60,7 +84,20 @@ For the architecture:
   - Tag id
   - Tag name
 
-## Like 
-  - Like id
-  - User id // 'Cause only one user can "own" the like
-  - Post id
+## Reaction 
+  - reaction id
+  - reaction type
+
+# Relations
+
+## User and profile photo
+`User --- Photo id`
+
+## User and message
+`User id --< Message id`
+
+## User and User info
+`User id --- User info `
+
+  
+  
