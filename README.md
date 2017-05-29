@@ -1,10 +1,12 @@
 # my-social-network
 Social network made with &lt;3
- - Relations (1:1) will be used Redis
- - Relations (n:n) will be used Neo4j
- - Documents will be stored using MongoDB
 
-
+For the archtecture:
+ - For Relations (1:1) Redis
+ - For Relations (n:n) Neo4j
+ - Documents using MongoDB
+ - Real time with WebRTC when available, otherwhise WebSockets
+ 
 # Models
 
 ## User
