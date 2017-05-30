@@ -96,8 +96,12 @@ For the architecture:
 ## User and message
 `User id --< Message id`
 
+## Group and message
+`Group id --< Message id`
+
 ## User and User info
 `User id --- User info `
 
-  
+## User and User info
+`User id --- User info `
   
